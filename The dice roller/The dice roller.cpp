@@ -12,8 +12,6 @@ int main()
 {
     InitWindow(390, 225, "The dice roller");
 
-    SetTargetFPS(60);
-
     Image icon = LoadImage("dice-multiple.png");
     SetWindowIcon(icon);
     UnloadImage(icon);
