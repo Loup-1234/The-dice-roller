@@ -16,13 +16,13 @@ int main()
     SetWindowIcon(icon);
     UnloadImage(icon);
 
+    GuiLoadStyle("style_cyber.rgs");
+
     int number = 100;
     int max = 100;
 
     while (!WindowShouldClose())
     {
-        GuiLoadStyle("style_cyber.rgs");
-
         BeginDrawing();
 
         ClearBackground(GetColor(GuiGetStyle(DEFAULT, BACKGROUND_COLOR)));
